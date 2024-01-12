@@ -1,0 +1,967 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\henri\Documents\Git\PractiTest\exercise\front\learn-reagent-course-files\giggin & npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app & popd
+; Using host:port localhost:3333 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉shadow.user꞉>  ; Use `alt+enter` to evaluate
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.cljs'
+nil
+cljs꞉user꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (177 files, 2 compiled, 0 warnings, 0,47s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (177 files, 2 compiled, 0 warnings, 0,25s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (177 files, 2 compiled, 0 warnings, 0,20s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+; [:app] Build completed. (177 files, 3 compiled, 0 warnings, 0,35s)
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (177 files, 1 compiled, 2 warnings, 0,16s)
+; 
+; ------ WARNING #1 - :undeclared-var --------------------------------------------
+;  File: C:\Users\henri\Documents\Git\PractiTest\exercise\front\learn-reagent-course-files\giggin\src\giggin\core.cljs:16:11
+; --------------------------------------------------------------------------------
+;   13 |    [gigs]
+;   14 |    [orders]
+;   15 |    [footer]
+;   16 |    (when @modal-state
+; -----------------^--------------------------------------------------------------
+;  Use of undeclared Var giggin.core/modal-state
+; --------------------------------------------------------------------------------
+;   17 |      [modal])
+;   18 |    ])
+;   19 | 
+;   20 | (defn ^:export main
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #2 - :undeclared-var --------------------------------------------
+;  File: C:\Users\henri\Documents\Git\PractiTest\exercise\front\learn-reagent-course-files\giggin\src\giggin\core.cljs:17:7
+; --------------------------------------------------------------------------------
+;   14 |    [orders]
+;   15 |    [footer]
+;   16 |    (when @modal-state
+;   17 |      [modal])
+; -------------^------------------------------------------------------------------
+;  Use of undeclared Var giggin.core/modal
+; --------------------------------------------------------------------------------
+;   18 |    ])
+;   19 | 
+;   20 | (defn ^:export main
+;   21 |   []
+; --------------------------------------------------------------------------------
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,16s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 1 compiled, 0 warnings, 0,13s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,26s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,22s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,19s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,19s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,22s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 5 compiled, 0 warnings, 0,36s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,16s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,28s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,16s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,14s)
+cljs꞉user꞉> 
+@state/editing-giggin
+nil
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:1:2
+;  No such namespace: state, could not locate state.cljs, state.cljc, or JavaScript source providing "state"
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+;  Use of undeclared Var state/editing-giggin
+; --------------------------------------------------------------------------------
+; 
+cljs꞉user꞉> 
+@state/modal-opened
+nil
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:1:2
+;  No such namespace: state, could not locate state.cljs, state.cljc, or JavaScript source providing "state"
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+;  Use of undeclared Var state/modal-opened
+; --------------------------------------------------------------------------------
+; 
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,27s)
+cljs꞉user꞉> 
+@state/editing-giggin
+nil
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:1:2
+;  No such namespace: state, could not locate state.cljs, state.cljc, or JavaScript source providing "state"
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+;  Use of undeclared Var state/editing-giggin
+; --------------------------------------------------------------------------------
+; 
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,22s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,20s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,28s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,20s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,21s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,20s)
+cljs꞉user꞉> 
+@state/modal-opened
+nil
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:1:2
+;  No such namespace: state, could not locate state.cljs, state.cljc, or JavaScript source providing "state"
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+;  Use of undeclared Var state/modal-opened
+; --------------------------------------------------------------------------------
+; 
+cljs꞉user꞉> 
+@state/modal-opened
+nil
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:1:2
+;  No such namespace: state, could not locate state.cljs, state.cljc, or JavaScript source providing "state"
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+;  Use of undeclared Var state/modal-opened
+; --------------------------------------------------------------------------------
+; 
+cljs꞉user꞉> 
+@state/modal-opened
+nil
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:1:2
+;  No such namespace: state, could not locate state.cljs, state.cljc, or JavaScript source providing "state"
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+;  Use of undeclared Var state/modal-opened
+; --------------------------------------------------------------------------------
+; 
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,15s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,19s)
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,17s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,18s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,26s)
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+; [:app] Compiling ...
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,20s)
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 3 warnings, 0,20s)
+; 
+; ------ WARNING #1 - :undeclared-var --------------------------------------------
+;  File: C:\Users\henri\Documents\Git\PractiTest\exercise\front\learn-reagent-course-files\giggin\src\giggin\components\modal.cljs:14:48
+; --------------------------------------------------------------------------------
+;   11 |     [:h2 "Editing Giggin" ]
+;   12 |     [:form
+;   13 |       [:label {:for "title"} "Title"]
+;   14 |       [:input {:type "text" :id "title" :value title
+; ------------------------------------------------------^-------------------------
+;  Use of undeclared Var giggin.components.modal/title
+; --------------------------------------------------------------------------------
+;   15 |                :on-change #(reset! state/editing-giggin (assoc gig-data :title (-> % .-target .-value)))}]
+;   16 | 
+;   17 |       [:label {:for "price"} "Price"]
+;   18 |       [:input {:type "number" :id "price" :value price
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #2 - :undeclared-var --------------------------------------------
+;  File: C:\Users\henri\Documents\Git\PractiTest\exercise\front\learn-reagent-course-files\giggin\src\giggin\components\modal.cljs:18:50
+; --------------------------------------------------------------------------------
+;   15 |                :on-change #(reset! state/editing-giggin (assoc gig-data :title (-> % .-target .-value)))}]
+;   16 | 
+;   17 |       [:label {:for "price"} "Price"]
+;   18 |       [:input {:type "number" :id "price" :value price
+; --------------------------------------------------------^-----------------------
+;  Use of undeclared Var giggin.components.modal/price
+; --------------------------------------------------------------------------------
+;   19 |                :on-change #(reset! state/editing-giggin (assoc gig-data :price (-> % .-target .-value)))}]
+;   20 | 
+;   21 |       [:label {:for "desc"} "Description"]
+;   22 |       [:textarea {:id "desc" :value description
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #3 - :undeclared-var --------------------------------------------
+;  File: C:\Users\henri\Documents\Git\PractiTest\exercise\front\learn-reagent-course-files\giggin\src\giggin\components\modal.cljs:22:37
+; --------------------------------------------------------------------------------
+;   19 |                :on-change #(reset! state/editing-giggin (assoc gig-data :price (-> % .-target .-value)))}]
+;   20 | 
+;   21 |       [:label {:for "desc"} "Description"]
+;   22 |       [:textarea {:id "desc" :value description
+; -------------------------------------------^------------------------------------
+;  Use of undeclared Var giggin.components.modal/description
+; --------------------------------------------------------------------------------
+;   23 |                   :on-change #(reset! state/editing-giggin (assoc gig-data :desc (-> % .-target .-value)))}]
+;   24 | 
+;   25 |       [:button {:on-click #(do
+;   26 |                             ;;  (update-gig id gig-data)
+; --------------------------------------------------------------------------------
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 2 warnings, 0,17s)
+; 
+; ------ WARNING #1 - :undeclared-var --------------------------------------------
+;  File: C:\Users\henri\Documents\Git\PractiTest\exercise\front\learn-reagent-course-files\giggin\src\giggin\components\modal.cljs:18:50
+; --------------------------------------------------------------------------------
+;   15 |                :on-change #(reset! state/editing-giggin (assoc gig-data :title (-> % .-target .-value)))}]
+;   16 | 
+;   17 |       [:label {:for "price"} "Price"]
+;   18 |       [:input {:type "number" :id "price" :value price
+; --------------------------------------------------------^-----------------------
+;  Use of undeclared Var giggin.components.modal/price
+; --------------------------------------------------------------------------------
+;   19 |                :on-change #(reset! state/editing-giggin (assoc gig-data :price (-> % .-target .-value)))}]
+;   20 | 
+;   21 |       [:label {:for "desc"} "Description"]
+;   22 |       [:textarea {:id "desc" :value description
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #2 - :undeclared-var --------------------------------------------
+;  File: C:\Users\henri\Documents\Git\PractiTest\exercise\front\learn-reagent-course-files\giggin\src\giggin\components\modal.cljs:22:37
+; --------------------------------------------------------------------------------
+;   19 |                :on-change #(reset! state/editing-giggin (assoc gig-data :price (-> % .-target .-value)))}]
+;   20 | 
+;   21 |       [:label {:for "desc"} "Description"]
+;   22 |       [:textarea {:id "desc" :value description
+; -------------------------------------------^------------------------------------
+;  Use of undeclared Var giggin.components.modal/description
+; --------------------------------------------------------------------------------
+;   23 |                   :on-change #(reset! state/editing-giggin (assoc gig-data :desc (-> % .-target .-value)))}]
+;   24 | 
+;   25 |       [:button {:on-click #(do
+;   26 |                             ;;  (update-gig id gig-data)
+; --------------------------------------------------------------------------------
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 1 warnings, 0,14s)
+; 
+; ------ WARNING #1 - :undeclared-var --------------------------------------------
+;  File: C:\Users\henri\Documents\Git\PractiTest\exercise\front\learn-reagent-course-files\giggin\src\giggin\components\modal.cljs:22:37
+; --------------------------------------------------------------------------------
+;   19 |                :on-change #(reset! state/editing-giggin (assoc gig-data :price (-> % .-target .-value)))}]
+;   20 | 
+;   21 |       [:label {:for "desc"} "Description"]
+;   22 |       [:textarea {:id "desc" :value description
+; -------------------------------------------^------------------------------------
+;  Use of undeclared Var giggin.components.modal/description
+; --------------------------------------------------------------------------------
+;   23 |                   :on-change #(reset! state/editing-giggin (assoc gig-data :desc (-> % .-target .-value)))}]
+;   24 | 
+;   25 |       [:button {:on-click #(do
+;   26 |                             ;;  (update-gig id gig-data)
+; --------------------------------------------------------------------------------
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,18s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 3 warnings, 0,21s)
+; 
+; ------ WARNING #1 - :undeclared-var --------------------------------------------
+;  File: C:\Users\henri\Documents\Git\PractiTest\exercise\front\learn-reagent-course-files\giggin\src\giggin\components\modal.cljs:14:64
+; --------------------------------------------------------------------------------
+;   11 |     [:form
+;   12 |       [:label {:for "title"} "Title"]
+;   13 |       [:input {:type "text" :id "title" :value title
+;   14 |                :on-change #(reset! state/editing-giggin (assoc gig-data :title (-> % .-target .-value)))}]
+; ----------------------------------------------------------------------^---------
+;  Use of undeclared Var giggin.components.modal/gig-data
+; --------------------------------------------------------------------------------
+;   15 | 
+;   16 |       [:label {:for "price"} "Price"]
+;   17 |       [:input {:type "number" :id "price" :value price
+;   18 |                :on-change #(reset! state/editing-giggin (assoc gig-data :price (-> % .-target .-value)))}]
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #2 - :undeclared-var --------------------------------------------
+;  File: C:\Users\henri\Documents\Git\PractiTest\exercise\front\learn-reagent-course-files\giggin\src\giggin\components\modal.cljs:18:64
+; --------------------------------------------------------------------------------
+;   15 | 
+;   16 |       [:label {:for "price"} "Price"]
+;   17 |       [:input {:type "number" :id "price" :value price
+;   18 |                :on-change #(reset! state/editing-giggin (assoc gig-data :price (-> % .-target .-value)))}]
+; ----------------------------------------------------------------------^---------
+;  Use of undeclared Var giggin.components.modal/gig-data
+; --------------------------------------------------------------------------------
+;   19 | 
+;   20 |       [:label {:for "desc"} "Description"]
+;   21 |       [:textarea {:id "desc" :value description
+;   22 |                   :on-change #(reset! state/editing-giggin (assoc gig-data :desc (-> % .-target .-value)))}]
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #3 - :undeclared-var --------------------------------------------
+;  File: C:\Users\henri\Documents\Git\PractiTest\exercise\front\learn-reagent-course-files\giggin\src\giggin\components\modal.cljs:22:67
+; --------------------------------------------------------------------------------
+;   19 | 
+;   20 |       [:label {:for "desc"} "Description"]
+;   21 |       [:textarea {:id "desc" :value description
+;   22 |                   :on-change #(reset! state/editing-giggin (assoc gig-data :desc (-> % .-target .-value)))}]
+; -------------------------------------------------------------------------^------
+;  Use of undeclared Var giggin.components.modal/gig-data
+; --------------------------------------------------------------------------------
+;   23 | 
+;   24 |       [:button {:on-click #(do
+;   25 |                             ;;  (update-gig id gig-data)
+;   26 |                              (reset! state/editing-giggin nil)
+; --------------------------------------------------------------------------------
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 2 warnings, 0,14s)
+; 
+; ------ WARNING #1 - :undeclared-var --------------------------------------------
+;  File: C:\Users\henri\Documents\Git\PractiTest\exercise\front\learn-reagent-course-files\giggin\src\giggin\components\modal.cljs:18:64
+; --------------------------------------------------------------------------------
+;   15 | 
+;   16 |       [:label {:for "price"} "Price"]
+;   17 |       [:input {:type "number" :id "price" :value price
+;   18 |                :on-change #(reset! state/editing-giggin (assoc gig-data :price (-> % .-target .-value)))}]
+; ----------------------------------------------------------------------^---------
+;  Use of undeclared Var giggin.components.modal/gig-data
+; --------------------------------------------------------------------------------
+;   19 | 
+;   20 |       [:label {:for "desc"} "Description"]
+;   21 |       [:textarea {:id "desc" :value description
+;   22 |                   :on-change #(reset! state/editing-giggin (assoc gig-data :desc (-> % .-target .-value)))}]
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #2 - :undeclared-var --------------------------------------------
+;  File: C:\Users\henri\Documents\Git\PractiTest\exercise\front\learn-reagent-course-files\giggin\src\giggin\components\modal.cljs:22:67
+; --------------------------------------------------------------------------------
+;   19 | 
+;   20 |       [:label {:for "desc"} "Description"]
+;   21 |       [:textarea {:id "desc" :value description
+;   22 |                   :on-change #(reset! state/editing-giggin (assoc gig-data :desc (-> % .-target .-value)))}]
+; -------------------------------------------------------------------------^------
+;  Use of undeclared Var giggin.components.modal/gig-data
+; --------------------------------------------------------------------------------
+;   23 | 
+;   24 |       [:button {:on-click #(do
+;   25 |                             ;;  (update-gig id gig-data)
+;   26 |                              (reset! state/editing-giggin nil)
+; --------------------------------------------------------------------------------
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+; [:app] Compiling ...
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,13s)
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,13s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 2 warnings, 0,19s)
+; 
+; ------ WARNING #1 - :undeclared-ns ---------------------------------------------
+;  File: C:\Users\henri\Documents\Git\PractiTest\exercise\front\learn-reagent-course-files\giggin\src\giggin\components\modal.cljs:31:31
+; --------------------------------------------------------------------------------
+;   28 |                "Save Changes"]
+;   29 | 
+;   30 |       [:button {:on-click #(do
+;   31 |                              (reagent/prevent-default! %)
+; -------------------------------------^------------------------------------------
+;  No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"
+; --------------------------------------------------------------------------------
+;   32 |                              (reset! state/editing-giggin nil)
+;   33 |                              (reset! state/modal-opened false))}
+;   34 |                "Cancel"]]]]))
+;   35 | 
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #2 - :undeclared-var --------------------------------------------
+;  File: C:\Users\henri\Documents\Git\PractiTest\exercise\front\learn-reagent-course-files\giggin\src\giggin\components\modal.cljs:31:31
+; --------------------------------------------------------------------------------
+;   28 |                "Save Changes"]
+;   29 | 
+;   30 |       [:button {:on-click #(do
+;   31 |                              (reagent/prevent-default! %)
+; -------------------------------------^------------------------------------------
+;  Use of undeclared Var reagent/prevent-default!
+; --------------------------------------------------------------------------------
+;   32 |                              (reset! state/editing-giggin nil)
+;   33 |                              (reset! state/modal-opened false))}
+;   34 |                "Cancel"]]]]))
+;   35 | 
+; --------------------------------------------------------------------------------
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 2 warnings, 0,16s)
+; 
+; ------ WARNING #1 - :undeclared-ns ---------------------------------------------
+;  File: C:\Users\henri\Documents\Git\PractiTest\exercise\front\learn-reagent-course-files\giggin\src\giggin\components\modal.cljs:31:31
+; --------------------------------------------------------------------------------
+;   28 |                "Save Changes"]
+;   29 | 
+;   30 |       [:button {:on-click #(do
+;   31 |                              (reagent/prevent-default %)
+; -------------------------------------^------------------------------------------
+;  No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"
+; --------------------------------------------------------------------------------
+;   32 |                              (reset! state/editing-giggin nil)
+;   33 |                              (reset! state/modal-opened false))}
+;   34 |                "Cancel"]]]]))
+;   35 | 
+; --------------------------------------------------------------------------------
+; 
+; ------ WARNING #2 - :undeclared-var --------------------------------------------
+;  File: C:\Users\henri\Documents\Git\PractiTest\exercise\front\learn-reagent-course-files\giggin\src\giggin\components\modal.cljs:31:31
+; --------------------------------------------------------------------------------
+;   28 |                "Save Changes"]
+;   29 | 
+;   30 |       [:button {:on-click #(do
+;   31 |                              (reagent/prevent-default %)
+; -------------------------------------^------------------------------------------
+;  Use of undeclared Var reagent/prevent-default
+; --------------------------------------------------------------------------------
+;   32 |                              (reset! state/editing-giggin nil)
+;   33 |                              (reset! state/modal-opened false))}
+;   34 |                "Cancel"]]]]))
+;   35 | 
+; --------------------------------------------------------------------------------
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,25s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,14s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,14s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,13s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build failure:
+; ------ ERROR -------------------------------------------------------------------
+;  File: C:\Users\henri\Documents\Git\PractiTest\exercise\front\learn-reagent-course-files\giggin\src\giggin\components\modal.cljs:11:24
+; --------------------------------------------------------------------------------
+;    8 |    [:div.modal-content
+;    9 |     [:button.close-button {:on-click #(close-modal)} "×"]
+;   10 |     [:h2 "Editing Giggin"]
+;   11 |     [:form {:on-submit (fn [e
+; ------------------------------^-------------------------------------------------
+; Syntax error macroexpanding cljs.core/fn.
+; Call to cljs.core/fn did not conform to spec.
+; -- Spec failed --------------------
+; 
+;   ([... (.preventDefault e) ... ...])
+;         ^^^^^^^^^^^^^^^^^^^
+; 
+; has extra input
+; 
+; or value
+; 
+;   ([e ... ... ...])
+;     ^
+; 
+; should satisfy
+; 
+;   vector?
+; 
+; -- Relevant specs -------
+; 
+; :shadow.cljs.devtools.cljs-specs/param-list:
+;   (clojure.spec.alpha/and
+;    clojure.core/vector?
+;    (clojure.spec.alpha/cat
+;     :params
+;     (clojure.spec.alpha/* :shadow.cljs.
+; devtools.cljs-specs/binding-form)
+;     :var-params
+;     (clojure.spec.alpha/?
+;      (clojure.spec.alpha/cat
+;       :ampersand
+;       #{'&}
+;       :var-form
+;       :shadow.cljs.devtools.cljs-specs/binding-form))))
+; :shadow.cljs.devtools.cljs-specs/params+body:
+;   (clojure.spec.alpha/cat
+;    :params
+;    :shadow.cljs.devtools.cljs-specs/param-list
+;    :body
+;    (clojure.spec.alpha/alt
+;     :prepost+body
+;     (clojure.spec.alpha/cat
+;      :prepost
+;      clojure.core/map?
+;      :body
+;      (clojure.spec.alpha/+ clojure.core/any?))
+;     :body
+;     (clojure.spec.alpha/* clojure.core/any?)))
+; 
+; -------------------------
+; Detected 1 error
+; 
+; --------------------------------------------------------------------------------
+;   12 |                             ;;  (update-gig id gig-data)
+;   13 |                              (.preventDefault e)
+;   14 |                              (reset! state/editing-giggin nil)
+;   15 |                              (reset! state/modal-opened false)])}
+; ----------------------------------------------------------------
+; ----------------
+; 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 1 compiled, 0 warnings, 0,12s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,16s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,17s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,18s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,09s)
+cljs꞉user꞉> 
+@state/gigs
+nil
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:1:2
+;  No such namespace: state, could not locate state.cljs, state.cljc, or JavaScript source providing "state"
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+;  Use of undeclared Var state/gigs
+; --------------------------------------------------------------------------------
+; 
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,09s)
+cljs꞉user꞉> 
+@state/gigs
+nil
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:1:2
+;  No such namespace: state, could not locate state.cljs, state.cljc, or JavaScript source providing "state"
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+;  Use of undeclared Var state/gigs
+; --------------------------------------------------------------------------------
+; 
+cljs꞉user꞉> 
+state/gigs
+nil
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:1:1
+;  No such namespace: state, could not locate state.cljs, state.cljc, or JavaScript source providing "state"
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:1
+;  Use of undeclared Var state/gigs
+; --------------------------------------------------------------------------------
+; 
+cljs꞉user꞉> 
+@(state/gigs)
+nil
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:1:3
+;  No such namespace: state, could not locate state.cljs, state.cljc, or JavaScript source providing "state"
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:3
+;  Use of undeclared Var state/gigs
+; --------------------------------------------------------------------------------
+; 
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,09s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,09s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,10s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,09s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,15s)
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 1 warnings, 0,11s)
+; 
+; ------ WARNING #1 - :fn-arity --------------------------------------------------
+;  File: C:\Users\henri\Documents\Git\PractiTest\exercise\front\learn-reagent-course-files\giggin\src\giggin\components\modal.cljs:16:14
+; --------------------------------------------------------------------------------
+;   13 |                           (swap! state/gigs
+;   14 |        (fn [gigs]
+;   15 |          (-> gigs
+;   16 |              (assoc-in [id {:desc desc :title title :price price}]))))
+; --------------------^-----------------------------------------------------------
+;  Wrong number of args (2) passed to cljs.core/assoc-in
+; --------------------------------------------------------------------------------
+;   17 |                           (reset! state/editing-giggin nil)
+;   18 |                           (reset! state/modal-opened false))}
+;   19 |       [:label {:for "title"} "Title"]
+;   20 |       [:input {:type "text" :id "title" :value title
+; --------------------------------------------------------------------------------
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+cljs꞉user꞉> 
+; [:app] Compiling ...
+cljs꞉user꞉> 
+; [:app] Build completed. (178 files, 2 compiled, 0 warnings, 0,13s)
+cljs꞉user꞉> 
