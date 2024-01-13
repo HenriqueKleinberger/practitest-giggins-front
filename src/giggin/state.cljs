@@ -18,8 +18,8 @@
             {:id id
              :title title
              :artist artist
-             :desc description
-             :img image
+             :description description
+             :image image
              :price price
              :sold-out soldOut}]))
        gigs-data)))
@@ -32,5 +32,19 @@
         (let [response (<p! (js/fetch url))
               result   (<p! (.json response))]
           (reset! gigs (fetch-gigs-success result)))
+        (catch js/console.error err "Failed to fetch gigs" err))))
+  (reset! loading-state false))
+
+(defn update-gig [gig]
+  (reset! loading-state true)
+  (let [url "https://localhost:44376/giggins"
+        id (:id gig)
+        update-url (str url "/" id)]
+    (go
+      (try
+        (<p! (js/fetch update-url
+                       (clj->js {:method "PUT" :headers {:Content-Type "application/json"}
+                        :body (js/JSON.stringify (clj->js gig))})))
+        (fetch-gigs)
         (catch js/console.error err "Failed to fetch gigs" err))))
   (reset! loading-state false))

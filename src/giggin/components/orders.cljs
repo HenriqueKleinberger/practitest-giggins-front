@@ -22,7 +22,7 @@
      (for [[id quant] @state/orders]
        [:div.item {:key id}
         [:div.img
-         [:img {:src (get-in @state/gigs [id :img])
+         [:img {:src (get-in @state/gigs [id :image])
                 :alt (get-in @state/gigs [id :title])}]]
         [:div.content
          [:p.title (str (get-in @state/gigs [id :title]) " \u00D7 " quant)]]

@@ -1,19 +1,14 @@
 (ns giggin.components.modal
-  (:require [giggin.state :as state]))
+  (:require [giggin.state :as state :refer [update-gig]]))
 
 (defn modal []
-  (let [{:keys [id title price desc]} @state/editing-giggin
+  (let [{:keys [title price description]} @state/editing-giggin
         close-modal #(do
                        (reset! state/editing-giggin nil)
                        (reset! state/modal-opened false))
         submit #(do
                   (.preventDefault %)
-                  (swap! state/gigs
-                         (fn [gigs]
-                           (-> gigs
-                               (assoc-in [id :desc] desc)
-                               (assoc-in [id :price] price)
-                               (assoc-in [id :title] title))))
+                  (update-gig @state/editing-giggin)
                   (reset! state/editing-giggin nil)
                   (reset! state/modal-opened false))]
   [:div.modal-overlay
@@ -32,8 +27,8 @@
                       :on-change #(reset! state/editing-giggin (assoc @state/editing-giggin :price (-> % .-target .-value)))}]]]
      [:div.field
       [:label.form__label {:for "description"} "Description"]
-      [:textarea.form__input {:id "description" :value desc
-                              :on-change #(reset! state/editing-giggin (assoc @state/editing-giggin :desc (-> % .-target .-value)))}]]
+      [:textarea.form__input {:id "description" :value description
+                              :on-change #(reset! state/editing-giggin (assoc @state/editing-giggin :description (-> % .-target .-value)))}]]
      [:div.row.form-action
       [:button.btn {:on-click #(close-modal)}
        "Cancel"]
