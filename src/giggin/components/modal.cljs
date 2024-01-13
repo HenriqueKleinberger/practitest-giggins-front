@@ -31,8 +31,8 @@
        [:input.form__input {:type "number" :id "price" :value price
                       :on-change #(reset! state/editing-giggin (assoc @state/editing-giggin :price (-> % .-target .-value)))}]]]
      [:div.field
-      [:label.form__label {:for "desc"} "Description"]
-      [:textarea.form__input {:id "desc" :value desc
+      [:label.form__label {:for "description"} "Description"]
+      [:textarea.form__input {:id "description" :value desc
                               :on-change #(reset! state/editing-giggin (assoc @state/editing-giggin :desc (-> % .-target .-value)))}]]
      [:div.row.form-action
       [:button.btn {:on-click #(close-modal)}

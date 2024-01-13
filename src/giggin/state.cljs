@@ -14,12 +14,12 @@
 (into {}
   (map (fn [gig]
          (let [{:keys [id image title artist price description soldOut]} (js->clj gig :keywordize-keys true)]
-        [(keyword (str id))
-            {:id (str id)
+        [id
+            {:id id
              :title title
              :artist artist
              :desc description
-             :image image
+             :img image
              :price price
              :sold-out soldOut}]))
        gigs-data)))
